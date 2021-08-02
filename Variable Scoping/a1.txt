@@ -10,4 +10,4 @@ Ans: num - created when function num_square gets executed and destroyed when the
 Ans: result variable would never be created and the print statement would raise a NameError as no variable with the name variable is created
 
 4. What would be the scope and value of result if input_num has a value of less than 100? 
-Ans: local scope and it would not have a value since it was never created(so null probably).
+Ans: no scope as it would not be initialized and would give a NameError on trying to print its value.
